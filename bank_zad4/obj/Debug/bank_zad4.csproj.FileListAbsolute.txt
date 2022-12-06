@@ -1,0 +1,16 @@
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\bin\Debug\bank_zad4.exe.config
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\bin\Debug\bank_zad4.exe
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\bin\Debug\bank_zad4.pdb
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4.csproj.AssemblyReference.cache
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4.csproj.SuggestedBindingRedirects.cache
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\MainWindow.g.cs
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\App.g.cs
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4_MarkupCompile.cache
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4_MarkupCompile.lref
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\MainWindow.baml
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4.g.resources
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4.Properties.Resources.resources
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4.csproj.GenerateResource.cache
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4.csproj.CoreCompileInputs.cache
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4.exe
+C:\Users\3TP2\RiderProjects\bank_zad4\bank_zad4\obj\Debug\bank_zad4.pdb
