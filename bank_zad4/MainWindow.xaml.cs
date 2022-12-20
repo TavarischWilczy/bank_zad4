@@ -14,14 +14,29 @@ namespace bank_zad4
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
-            start.Visibility = Visibility.Hidden;
-            nowyUz.Visibility = Visibility.Visible;
+            Start.Visibility = Visibility.Hidden;
+            NowyUz.Visibility = Visibility.Visible;
         }
 
         private void ButtonBase_OnClick2(object sender, RoutedEventArgs e)
         {
-            start.Visibility = Visibility.Visible;
-            nowyUz.Visibility = Visibility.Hidden;
+            Start.Visibility = Visibility.Visible;
+            NowyUz.Visibility = Visibility.Hidden;
+        }
+
+        private void ButtonBase_OnClick3(object sender, RoutedEventArgs e)
+        {
+            var imie = Imie.Text;
+            var nazwisko = Nazwosko.Text;
+            var nr_konta = NumerKonta.Text;
+            if (nr_konta.Length > 4)
+            {
+                MessageBox.Show("Unable to save file, try again.", "Save error");
+            }
+            else
+            {
+                
+            }
         }
     }
 }
