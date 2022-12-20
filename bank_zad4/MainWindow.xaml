@@ -8,7 +8,16 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Grid Name="Start" Visibility="Visible">
-            <Button Width="100" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin=" 0 0 10 10" Content="Nowy użytkownik" Click="ButtonBase_OnClick"></Button>
+            <Button Width="150" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin=" 0 0 10 10" Content="Nowy użytkownik" Click="ButtonBase_OnClick"></Button>
+            <Button Width="150" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin=" 10 0 0 10" Content="Zmiana nr. Pin" Click="ButtonBase_OnClick4"></Button>
+            <Button Width="150" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Margin=" 0 10 10 0" Content="Zmiana balansu konta" Click="ButtonBase_OnClick5"></Button>
+            <Button Width="150" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 10 10 0 0" Content="Odczyt nr pin" Click="ButtonBase_OnClick66"></Button>
+        </Grid>
+        <Grid Name="zm_PIN" Visibility="Hidden">
+            
+        </Grid>
+        <Grid Name="zm_Balansu" Visibility="Hidden">
+            
         </Grid>
         <Grid Name="NowyUz" Visibility="Hidden">
             <Button Width="100" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin=" 0 0 10 10" Content="Powrót" Click="ButtonBase_OnClick2"></Button>

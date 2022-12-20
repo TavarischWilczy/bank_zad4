@@ -38,5 +38,20 @@ namespace bank_zad4
                 
             }
         }
+
+        private void ButtonBase_OnClick4(object sender, RoutedEventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void ButtonBase_OnClick5(object sender, RoutedEventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void ButtonBase_OnClick6(object sender, RoutedEventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
