@@ -1,4 +1,6 @@
-﻿namespace bank_zad4
+﻿using System.Windows;
+
+namespace bank_zad4
 {
     public class Program
     {
@@ -9,31 +11,31 @@
             // Przykładowa zmiana PINu
             if (k.setPin("4141")) // k.setPin("12345") zwróci false
             {
-                Console.WriteLine("Poprawnie zmieniono PIN, nowy PIN to {0}", k.getPIN());
+                MessageBox.Show("Poprawnie zmieniono PIN, nowy PIN to " + k.getPIN(), "Close");
             }
             else
             {
-                Console.WriteLine("Błąd w zmianie PINu");
+                MessageBox.Show("Błąd w zmianie PINu", "Close");
             }
 
             // Przykładowa wpłata
             if (k.setStanKonta(1000))
             {
-                Console.WriteLine("Poprawnie zmieniono stan konta, nowy stan konta {0}", k.getStanKonta());
+                MessageBox.Show("Poprawnie zmieniono stan konta, nowy stan konta " + k.getStanKonta(), "Close");
             }
             else
             {
-                Console.WriteLine("Błąd w aktualizacji stanu konta");
+                MessageBox.Show("Błąd w aktualizacji stanu konta", "Close");
             }
             
             // Przykładowa wypłata
             if (k.setStanKonta(-5000))
             {
-                Console.WriteLine("Poprawnie zmieniono stan konta, nowy stan konta {0}", k.getStanKonta());
+                MessageBox.Show("Poprawnie zmieniono stan konta, nowy stan konta " + k.getStanKonta(), "Close");
             }
             else
             {
-                Console.WriteLine("Nie masz tylu pieniędzy!");
+                MessageBox.Show("Nie masz tylu pieniędzy!", "Close");
             }
         }    }
 }

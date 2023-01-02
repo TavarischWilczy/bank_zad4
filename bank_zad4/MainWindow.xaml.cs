@@ -26,7 +26,7 @@ namespace bank_zad4
 
         private void ButtonBase_OnClick3(object sender, RoutedEventArgs e)
         {
-            var imie = Imie.Text;
+            Klient.imie = Imie.Text;
             var nazwisko = Nazwosko.Text;
             var nr_konta = NumerKonta.Text;
             if (nr_konta.Length > 4)

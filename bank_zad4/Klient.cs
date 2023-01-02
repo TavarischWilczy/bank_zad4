@@ -78,7 +78,7 @@
         /// <returns>Bool dla powodzenia operacji</returns>
         public bool setPin(string nowyPIN)
         {
-            if ((nowyPIN.Length == 4) && Regex.IsMatch(nowyPIN, @"^\d+$")) //sprawdza czy PIN sklada sie z 4 cyfr
+            if ((nowyPIN.Length == 4) && System.Text.RegularExpressions.Regex.IsMatch(nowyPIN, @"^\d+$")) //sprawdza czy PIN sklada sie z 4 cyfr
             {
                 this.pin = nowyPIN;
                 return true;
